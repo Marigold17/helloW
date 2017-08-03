@@ -4,9 +4,9 @@ background-color: rgb(200,200,200);
 h1{ background-color: DarkCyan;}
 
 li{
-  display:inline;
-  margin-right:10px;
+  display: inline;
+  margin-right: 12px;
   }
   li.coming-soon{
-    display:none;
+    display: none;
 }
