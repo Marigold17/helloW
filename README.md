@@ -1,6 +1,6 @@
 # mysite
-This is Draft. edit and commit changes.
-Pull Request for changes
+This is Branch Master . edit and commit changes.
+Pull Request for changes from branches
 click on Pull request tab, then from the pull request page, click the green New pull requet button. 
 Select the branch you made, to compare with master (the original)
 when you satistify the changes, you click on the big green Create Pull Request button
