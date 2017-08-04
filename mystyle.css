@@ -1,5 +1,6 @@
 h1{
   background-color:DarkCyan;}
+
 li{
   display: inline;
   margin-right: 12px;
@@ -8,7 +9,7 @@ li{
     display: none;
 }
 ul.idioms{
-list-style:i nside circle;
+list-style:inside circle;
   width: 300px;
 }
 
