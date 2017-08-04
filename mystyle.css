@@ -15,3 +15,8 @@ list-style:inside circle;
 }
 li.idiom{
   margin: 10px 0px 0px 0px;}
+
+img.small{
+  width:200px;
+  height:200px;
+}
