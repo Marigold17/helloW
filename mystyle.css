@@ -8,11 +8,10 @@ li{
     display: none;
 }
 ul.idioms{
-list-style:inside circle;
-  width:300px;
+list-style:i nside circle;
+  width: 300px;
 }
-li.idiom{
-  margin: 10px 0px 0px 0px;}
+
 
 img.small{
   width:200px;
