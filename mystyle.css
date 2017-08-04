@@ -1,12 +1,20 @@
-body{
-background-color: rgb(200,200,200);
-}
-h1{ background-color: DarkCyan;}
-
+h1{
+  background-color:DarkCyan;}
 li{
   display: inline;
   margin-right: 12px;
   }
   li.coming-soon {
     display: none;
+}
+ul.idioms{
+list-style:inside circle;
+  width:30px;
+}
+li.idiom{
+  margin: 10px 0px 0px 0px;}
+
+img.small{
+  width:200px;
+  height:200px;
 }
