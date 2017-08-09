@@ -4,17 +4,24 @@ img.small{
   width:100px;
   height:100px;
 }
-
+ul{
+ width: 570px;
+ padding: 15px;
+ margin: 0px auto 0px auto;
+ border-top:2px solid #000;
+ border-bottom:1px solid #000; 
+}
 li{
   display: inline;
-  margin-right: 12px;
+  margin-right: 0px 3px;
   }
-  li.coming-soon {
+ 
+li.coming-soon {
     display: none;
 }
 
 ul.idioms{
-list-style:inside circle;
+list-style: inside circle;
   width: 300px;
 }
 .idiom{
