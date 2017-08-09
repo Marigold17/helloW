@@ -1,3 +1,12 @@
+header, footer{
+ background-color: lightgray;
+  border: solid 1px black;
+}
+
+footer {
+padding: 10px;
+  border-radius:3px;
+}
 
 h1{
   background-color:DarkCyan;}
@@ -21,5 +30,5 @@ list-style:inside circle;
 .idiom{
   margin: 12px 0px 0px 0px;
 }
-
+footer
 
