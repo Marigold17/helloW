@@ -4,6 +4,8 @@ header, footer{
 }
 
 footer {
+ background-color: lightgray;
+  border: solid 1px black;
 padding: 10px;
   border-radius:3px;
 }
