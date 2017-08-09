@@ -13,9 +13,9 @@ img.small{
   height:100px;
 }
 ul{
- width: 570px;
+ width: 200px;
  padding: 15px;
- margin: 0px auto 0px auto;
+ margin: 15px auto 15px auto;
  border-top:2px solid #000;
  border-bottom:1px solid #000; 
 }
@@ -30,7 +30,7 @@ li.coming-soon {
 
 ul.idioms{
 list-style: inside circle;
-  width: 300px;
+ 
 }
 .idiom{
   margin: 12px 0px 0px 0px;
