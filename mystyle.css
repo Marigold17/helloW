@@ -12,14 +12,6 @@ img.small{
   width:100px;
   height:100px;
 }
-#navigation{
- width: 570px;
- padding: 15px;
- margin: 0px auto 0px auto;
- border-top:2px solid #000;
- border-bottom:1px solid #000; 
- text-align: Center;
-}
 
 li{
   display: inline;
