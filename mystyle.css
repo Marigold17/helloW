@@ -46,11 +46,19 @@ th{
 }
  
 tr.even{
-  background-color: #efefef;}
+  background-color: Gray;
+  border-bottom: 1px solid #111111;
+}
 tr:hover{
   background-color: #c3e6e5;}
 .money{
   text-align: right;}
   
+div{
+  border-bottom: 1px solid #efefef;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;
+}
 
 
