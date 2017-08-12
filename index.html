@@ -64,19 +64,22 @@
  
  <form action="example.php" method="post">
   <div>
-   <label for="name" class="title">Name: </label>
+   <label for="name" class="title">Your name: </label>
    <label type="text"  id="name" name="name" />
   </div>
   <div>
-   <label for="email" class="title"> Email: </label>
+   <label for="email" class="title">Your Email: </label>
    <input type="email" id="email" name="email" />
   </div>
+  <div>
+   <label for="location" class="title">Your closest center: 
+  </div>
   <div class="radio-button">
-   <span class="title"> Geneder:</span>
-   <input type="radio" name="gender" id="male" value=""M" />
-   <label for="male">M</label>                                                  
-   <input type="radio" name="gender" id="female" value=""F" />                                                      
-   <label for="female">F</label><br />
+   <span class="title">Are you a member? </span>
+   <input type="radio" name="member" id="yes" value="Yes" />
+   <label for="Yes">Yes</label>                                                  
+   <input type="radio" name="member" id="no" value=""No" />                                                      
+   <label for="no">No</label><br />
   </div>
   <div class="submit">
    <input type="submit" value="Register" id="submit" />
