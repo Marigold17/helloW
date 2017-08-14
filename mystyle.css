@@ -22,7 +22,7 @@ img.small{
   height:100px;
 }
 ul{
-  list-style-type:disc;
+  list-style-type: disc;
   margin-right: 10px 0px 0px 0px;
   }
 table{
@@ -30,7 +30,9 @@ border-spacing: 0px;
 }
 th, td{
   padding:5px 30px 5px 10px; 
-}
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 0px;}
 
 th, td{
   text-align: left;
@@ -39,7 +41,16 @@ th, td{
   border-top: 1px solid #f1f8fe;
   border-right:1px solid #dbd2d8;
 }
- 
+tr.head th{
+ color:#ffffff;
+  background-color: #90b4d6;
+  border-bottom: 2px solid #547ca0;
+  border-right: 1px solid #749abe;
+  border-top: 1px solid #90b4d6;
+  text-align: center;
+  text-shadow: -1px -1px 1px #666666;
+  letter-spacing: 0.15em;
+}
 tr.even{
   border-bottom: 1px solid #111111;
 }
