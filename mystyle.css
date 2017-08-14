@@ -1,4 +1,13 @@
 <*site.css*>
+
+body{
+  font-family: Arial, Verdana, san-serif;
+  font-size: 90%;
+  color: #666666;
+  background-color:#f8f8f8:
+}
+  
+  
 footer{
   background-color: lightgray;
   border: solid 1px black;
@@ -13,25 +22,22 @@ img.small{
   height:100px;
 }
 ul{
-  list-style-type:circle;
-}
-li{
+  list-style-type:disc;
   margin-right: 10px 0px 0px 0px;
   }
- 
 table{
-width: 600px;
+border-spacing: 0px;
 }
 th, td{
-  padding:7px 10px 10px 10px; 
+  padding:5px 30px 5px 10px; 
 }
 
-th{
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 90%;
-  border-bottom: 2px solid #111111;
-  border-top: 1px solid #999;
+th, td{
+  text-align: left;
+  background-color: #e0e9f0;
+  border-bottom: 1px solid #cbd2d8;
+  border-top: 1px solid #f1f8fe;
+  border-right:1px solid #dbd2d8;
 }
  
 tr.even{
@@ -42,19 +48,14 @@ tr:hover{
 .money{
   text-align: right;}
   
-div{
-  border-bottom: 1px solid #efefef;
-  margin: 10px;
-  padding-bottom: 10px;
-  width: 260px;
-}
 
 .title{
   float: left;
-  width: 100px;
-  text-align: right;
-  padding-right: 10px;
+  width: 160px;
+  text-align: left;
+  clear: left;
 }
 .submit{
+  width: 300px;
   text-align: right;
 }
