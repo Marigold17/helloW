@@ -12,16 +12,13 @@ img.small{
   width:100px;
   height:100px;
 }
-
+ul{
+  list-style-type:circle;
+}
 li{
-  display: inline;
-  margin-right: 0px 3px;
+  margin-right: 10px 0px 0px 0px;
   }
  
-li.coming-soon {
-    display: none;
-}
-
 table{
 width: 600px;
 }
