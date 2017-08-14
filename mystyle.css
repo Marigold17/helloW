@@ -8,8 +8,6 @@ body{
 }
   
 footer{
-  background-color: lightgray;
-  border: solid 1px black;
   padding: 10px;
   border-radius:3px;
 }
@@ -62,11 +60,20 @@ tr.head th:first-child{
   -moz-border-redius-topleft:5px;
   border-top-left-radius:5px;}
 
-  
+  tr.head th:last-child{
+  -webkit-border-top-left-radius:5px;
+  -moz-border-redius-topleft:5px;
+  border-top-left-radius:5px;}
+
 tr:hover{
   background-color: #c3e6e5;}
-.money{
-  text-align: right;}
+
+fieldset{
+  width: 310px;
+  margin-top: 20px;
+  border: 1px solid #d6d6d6;
+  background-color: #ffffff;
+  line-height: 1.6em;}
   
 
 .title{
