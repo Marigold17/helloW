@@ -7,7 +7,6 @@ body{
   background-color:#f8f8f8:
 }
   
-  
 footer{
   background-color: lightgray;
   border: solid 1px black;
@@ -58,7 +57,12 @@ td{
 tr.even td, tr.even th{
   background-color: #e8eff5;
 }
+tr.head th:first-child{
+  -webkit-border-top-left-radius:5px;
+  -moz-border-redius-topleft:5px;
+  border-top-left-radius:5px;}
 
+  
 tr:hover{
   background-color: #c3e6e5;}
 .money{
