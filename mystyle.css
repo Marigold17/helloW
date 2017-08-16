@@ -25,11 +25,11 @@ ul{
   margin-right: 10px 0px 0px 0px;
   }
 table{
-border-spacing: 0px;
+border-spacing: 10px;
 }
 th, td{
   padding:5px 30px 5px 10px; 
-  border-spacing: 0px;
+  border-spacing: 10px;
   font-size: 90%;
   margin: 0px;}
 
