@@ -5,7 +5,15 @@ body{
   color: #666666;
   background-color:#f8f8f8:
 }
+img.align-left{
+  float: left;
+  margin-right: 10px;}
+img.aligh-right{
+  float: right;
+  margin-right:10px;}
   
+  
+
 footer{
   border: solid 1px black;
   padding: 10px;
