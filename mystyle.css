@@ -14,16 +14,15 @@ footer{
 
 h1{
   background-color:DarkCyan;}
+
 img.small{
   width:100px;
   height:100px;
 }
-img.small.align-left{
+img.align-left{
   float: left;
   margin-right: 10px;}
-img.small.aligh-right{
-  float: right;
-  margin-right:10px;}
+
 ul{
   list-style-type: disc;
   margin-right: 10px 0px 0px 0px;
