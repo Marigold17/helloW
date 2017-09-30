@@ -12,4 +12,11 @@ if (hourNow > 18){
   greeting = 'Welcome!';
 }
 document.write(greeting);
+
+var firstName = 'Howdy';
+var lastName ='Molly';
+var welcomemsg = firstName  + lastName + '!';
+
+var el = document.getElementById('customer');
+el.textContent = welcomemsg;
   
