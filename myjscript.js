@@ -17,6 +17,6 @@ var firstName = 'Howdy';
 var lastName ='Molly';
 var welcomemsg = firstName  + lastName + '!';
 
-var el = document.getElementById('customer');
+var el = document.getElementById('firstName');
 el.textContent = welcomemsg;
   
