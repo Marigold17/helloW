@@ -1,9 +1,15 @@
-var username;
-var message;
-username = 'Molly';
-message = 'See our upcoming events';
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
 
-var elName = document.getElementById('name'};
-elName.textContent = username;
-var elNote = document.getElementById('note');
-elNote.textContent = message;
+if (hourNow > 18){
+    greeting = 'Good evening';
+}else if (hourNow > 12){
+    greeting = 'Good Afternoon';
+}else if(hourNow > 0){
+    greeting = 'Good morning';
+}else {
+  greeting = 'Welcome';
+}
+document.write(greeting);
+  
