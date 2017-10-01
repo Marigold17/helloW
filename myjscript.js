@@ -13,18 +13,18 @@ if (hourNow > 18){
 }
 document.write(greeting);
 
-var greeting = 'Julie';
-var name ='Molly';
+var firstName = 'Julie';
+var lastName = 'Molly';
 var message = ' Please check your order: ';
-var welcome = greeting  + name + message;
+var welcome = firstName  + lastName + message;
 
 var sign = 'Montage House';
-var tiles = sign.lenght;
+var tiles = sign.length;
 var subTotal = tiles *5;
 var shipping = 7;
 var grandTotal= subTotal + shipping;
 
-var el = document.getElementById('greeting');
+var el = document.getElementById('firstName');
 el.textContent = welcome;
 
 var elSign = document.getElementById('userSign');
