@@ -1,95 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML5 Layout</title>
-
- <link rel="stylesheet" type="text/css" href="mystyle.css">
-
-<!--
-<style>
-  header{
-   background-color:lightblue;
-   border: solid 1px black;
-  }
- </style>
--->
+<link ref="stylesheet" href="Stylesheet.css" type="text/css" >
+		
+<title> YourDreams &amp; Co.</title>
 </head>
 <body>
- <div id = "page">
-  
- <h1> Julie's Web Site</h1>
- <ul id="navigation">
-    <li><a href="#" class="on">Home</a></li>
-    <li><a href="#">Produts</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact us</a></li> 
-   </ul>    
- <p>
-  <img src="Lily.jpeg" class="small" alt="love"/>
- </p>
- <h2> What We Sepcialize </h2>
- <p> We specialize in the sales of and repair of classic keyboards, in particular the Yamaha, Wurlitzer EP200 and Hohner Clavinet. 
-  </p>
-  </div>
- <h2> First Edition Auctions</h2>
- <table>
+	
+	<table>
+		<tr> 
+			<td>Custom Sign: </td>
+			<td id="usersign"></td>
+		</tr>
+		<tr>
+			<td> Total tiles: </td>
+			<td id="tiles"></td>
+		</tr>
+		<tr>
+			<td>Subtotal: </td>
+			<td id="subtotal"></td>
+		</tr>
+		
   <tr>
-   <th>Author</th>
-   <th>Title</th>
-   <th class="money">Reserve Price</th>
-   <th class="money"> Current Bid</th>
+   <td>Grand Total</td>
+   <td id="grandTotal"></td
   </tr>
-  <tr>
-    <td>E.E Cummings</td>
-   <td>Tulips & Chimneys</td>
-   <td class="money">$2,000.00</td>
-   <td class="money">$2,642.50</td>
-  </tr>
-  <tr class="even">
-   <td>Charles d'Orleans</td>
-   <td>Poems</td>
-   <td class="money"></td>
-   <td class="money">$5,866.00</td>
-  </tr>
-  <tr>
-   <td>T.S. Eliot</td>
-   <td>Poems 1909 - 1925</td>
-   <td class="money">$1,250.00</td>
-   <td class="money">$8,499.00</td>
-  </tr>
-  <tr class="even">
-   <td>Sylvia Plath</td>
-   <td>The Colossus</td>
-   <td class="money"></td>
-   <td class="money">$1031.72</td>
-  </tr>
-  
- </table>
- 
- <form action="example.php" method="post">
-  <div>
-   <label for="name" class="title">Name: </label>
-   <label type="text"  id="name" name="name" />
-  </div>
-  <div>
-   <label for="email" class="title"> Email: </label>
-   <input type="email" id="email" name="email" />
-  </div>
-  <div class="radio-button">
-   <span class="title"> Geneder:</span>
-   <input type="radio" name="gender" id="male" value=""M" />
-   <label for="male">M</label>                                                  
-   <input type="radio" name="gender" id="female" value=""F" />                                                      
-   <label for="female">F</label><br />
-  </div>
-  <div class="submit">
-   <input type="submit" value="Register" id="submit" />
-  </div>
-  <hr>
- <footer>
-  &copy;2017 SuJJ LC.
- </footer>
- </div>
-     </body>
-   </html>
+    
+		<a href="#" class="action">Pay Now</a>
+	</table>				       
+
+</body>
+</html>
