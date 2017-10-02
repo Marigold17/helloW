@@ -1,3 +1,7 @@
+function myFunction() {
+   document.getElementById("demo2").innerHTML = "Paragraph changed.";
+}
+
 var greeting = 'Julie';
 var name = 'Molly';
 var message = ' Please check your order: ';
